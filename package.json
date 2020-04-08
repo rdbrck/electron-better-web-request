@@ -7,9 +7,9 @@
   "license": "ISC",
   "homepage": "https://github.com/getstation/electron-better-web-request#readme",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/getstation/electron-better-web-request"
-   },
+    "type": "git",
+    "url": "https://github.com/getstation/electron-better-web-request"
+  },
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.ts",
     "prepublish": "rm -rf ./lib/ && tslint -p . && tsc -p . --declaration"
@@ -18,18 +18,18 @@
     "lib"
   ],
   "devDependencies": {
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.18",
-    "@types/uuid": "^3.4.4",
-    "electron": "^4.0.1",
-    "mocha": "^5.2.0",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.12.0",
-    "tslint-config-station": "^0.5.1",
-    "typescript": "^3.2.2"
+    "@types/mocha": "5.2.5",
+    "@types/node": "10.12.18",
+    "@types/uuid": "3.4.4",
+    "electron": "4.0.1",
+    "mocha": "5.2.0",
+    "ts-node": "7.0.1",
+    "tslint": "5.12.0",
+    "tslint-config-station": "0.5.1",
+    "typescript": "3.2.2"
   },
   "dependencies": {
-    "url-match-patterns": "^0.2.0",
-    "uuid": "^3.3.2"
+    "lodash": "4.3.0",
+    "uuid": "3.3.2"
   }
 }
