@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.ts",
-    "prepublish": "rm -rf ./lib/ && tslint -p . && tsc -p . --declaration"
+    "prepublish": "rm -rf ./lib/ && tslint -p . && tsc -p . --declaration && cp ./src/url-match-patterns.js ./lib/"
   },
   "files": [
     "lib"

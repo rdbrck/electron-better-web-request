@@ -1,7 +1,7 @@
 import { Session } from 'electron';
-import match from 'url-match-patterns';
 import uuid from 'uuid/v4';
 
+import match from './url-match-patterns';
 import {
   IBetterWebRequest,
   WebRequestMethod,
